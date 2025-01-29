@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:get/get.dart';
 import 'package:getxfavitems/Controller/favouriteListController.dart';
 import 'package:getxfavitems/View/FavoritemsScreen.dart';
@@ -15,8 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   FavouriteListController favouriteListController =
       Get.put(FavouriteListController());
   @override
-  Widget build(BuildContext context) { 
-    print('object rebuild');
+  Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: [

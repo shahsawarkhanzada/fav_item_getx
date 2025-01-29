@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getxfavitems/Controller/favouriteListController.dart';
@@ -14,7 +16,6 @@ class _FavouriteItemsScreenState extends State<FavouriteItemsScreen> {
       Get.put(FavouriteListController());
   @override
   Widget build(BuildContext context) {
-    print('rebuild');
     return Scaffold(
         body: Obx(
       () => ListView.builder(
