@@ -1,16 +1,15 @@
 # getxfavitems
 
-A new Flutter project.
+In this short tasks series:
 
-## Getting Started
+TASK 1: Create a list, then like items within the list, the liked items should be showed on a separate screen. Do it through getx.
 
-This project is a starting point for a Flutter application.
+SOLUTION:
 
-A few resources to get you started if this is your first Flutter project:
+I have created a controller for getx properties. In the controller, I have initialized two lists, one is properly defined and the other is just initialized in which the liked items will be added dynamically. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Two functions are also defined, one for adding favourite items two the dynamic list while the other to delete items from the dynamic list.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The home screen display the static list and the other screen display list of favourite/liked items.
+
+ 
